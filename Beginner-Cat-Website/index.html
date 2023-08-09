@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Cat Photo App</title>
+  </head>
+  <body>
+    <main>
+      <h1>Cat Photo App</h1>
+      <section>
+        <h2>Cat Photos</h2>
+        <!-- TODO: Add link to cat photos -->
+        <p>See more <a target="_blank" href="index.html">cat photos</a> in our gallery.</p>
+        <a href="index.html"><img src="cat orange.jpg" alt="A Orange Cat"></a>
+      </section>
+      <section>
+        <h2>Cat List</h2>
+        <h3>Things Cat love:</h3>
+        <ul>
+          <li>Cat nip</li>
+          <li>Laser pointer</li>
+          <li>Lasgna</li>
+        </ul>
+        <figure>
+          <img src="Lasagna.jpeg" alt="A lasagna on plate">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption> 
+        </figure>
+        <h3>Things Cate hate:</h3>
+        <ol>
+          <li>Flea treatment</li>
+          <li>Thunder</li>
+          <li>Other Cats</li>
+        </ol>
+        <figure>
+          <img src="cats.jpg" alt="5 Cats on a field">
+          <figcaption>Cats <strong>Hate</strong> Other cats.</figcaption> 
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+        <Form action="Submission.html">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </Form>
+      </section>
+    </main>
+    <footer>
+      <p> No Copyright </p>
+    </footer>
+  </body>
+</html>
